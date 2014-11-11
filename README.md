@@ -1,4 +1,4 @@
-# Casper Menu
+# Kilotau Casper With Menu
 
 A variation of the default theme for [Ghost](http://github.com/tryghost/ghost/). To download the original relase, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
