@@ -5,7 +5,7 @@
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-        &nbsp; &nbsp;
+        <div style="float: left; width: 20px; height: 30px;"></div>
         <a class="menu-button" href="{{@blog.url}}/about/"><i class="fa fa-info-circle"></i>About</a>
         <a class="menu-button" href="{{@blog.url}}/work/"><i class="fa fa-briefcase"></i>Work</a>
         <a class="menu-button" href="{{@blog.url}}/tag/projects/"><i class="fa fa-cog"></i>Projects</a>
